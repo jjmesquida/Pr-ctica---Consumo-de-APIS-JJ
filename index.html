@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pokédex Retro</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="pokedex-nav">
+    <h1>Pokédex Retro</h1>
+</nav>
+
+<section class="pokedex-header">
+    <p>
+        Explora los 151 Pokémon originales de Kanto. 
+        Busca por nombre o número, consulta su tipo y descubre cuáles son los más populares.
+    </p>
+</section>
+
+<main class="main-content">
+
+    <div class="pokedex-container">
+
+        <div class="pokedex-list">
+            <input type="text" id="searchInput" placeholder="Buscar Pokémon...">
+            <div id="pokemonList"></div>
+        </div>
+
+        <div class="pokedex-details">
+            <div class="pokedex-screen">
+                <div id="pokemonDetail">
+                    <p>Selecciona un Pokémon</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <section class="popular-section">
+        <h2>🔥 Pokémon más populares</h2>
+        <div id="popularList" class="popular-list"></div>
+    </section>
+
+</main>
+
+<script src="script.js"></script>
+<footer>
+    <div class="footer-column">
+        <h4>Pokédex</h4>
+        <a href="#">Explorar</a>
+        <a href="#">Populares</a>
+        <a href="#">Tipos</a>
+        <a href="#">Regiones</a>
+    </div>
+
+    <div class="footer-column">
+        <h4>Recursos</h4>
+        <a href="#">API</a>
+        <a href="#">Documentación</a>
+        <a href="#">Soporte</a>
+        <a href="#">Contacto</a>
+    </div>
+
+    <div class="footer-column">
+        <h4>Legal</h4>
+        <a href="#">Términos</a>
+        <a href="#">Privacidad</a>
+        <a href="#">Cookies</a>
+    </div>
+</footer>
+</body>
+</html>
